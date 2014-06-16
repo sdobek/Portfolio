@@ -1,0 +1,123 @@
+body{
+	background-color: #033395;
+	margin: 0px;
+}
+
+h1{
+	color: #012AFF;
+	text-shadow: 2px 2px #01FFEE;
+	font-size: 56px;
+	margin-bottom: 2px;
+}
+
+h2{
+	color: #012AFF;
+	font-size: 36px;
+	margin-top: 24px;
+	margin-bottom: 12px;
+	padding-left: 8px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #ED06FF;
+	text-shadow: 1px 1px #01FFEE;
+}
+
+
+
+.navigation{
+    width:100%;
+    height:28px;
+    background-color: #ED06FF;
+    float:left;
+}
+
+.links_hor{
+	list-style-type:none;
+	margin:0;
+	padding-left: 8px;
+}
+
+li{
+	display:inline;
+	margin-right: 24px;
+}
+
+.intro{
+	margin-left: 12px;
+}
+
+.work{
+	width:100%;
+  	float:left;
+  	padding-left: 0px;
+  	background: linear-gradient(#033395, #012AFF); /* Standard syntax */
+  	background: -webkit-linear-gradient(#033395, #012AFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#033395, #012AFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#033395, #012AFF); /* For Firefox 3.6 to 15 */
+  	color: #01FFEE;
+  	font-size: 24px;
+}
+
+#exLinks{
+	padding-left: 8px;
+}	
+
+.item{
+	height:auto;
+	width:100%;
+	/*background: linear-gradient(#012AFF, #033395); /* Standard syntax */
+	background: linear-gradient(#033395, #012AFF); /* Standard syntax */
+	background: -webkit-linear-gradient(#033395, #012AFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#033395, #012AFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#033395, #012AFF); /* For Firefox 3.6 to 15 */
+	padding-left: 12px;
+	padding-top: 9px;
+	padding-bottom: 9px;
+	float: left;
+}
+
+h3{
+	margin-top: 0px;
+	text-shadow: 2px 2px #012AFF;
+}
+
+.title{
+	width:1200px;
+	height:40px;
+	margin-bottom: 1px;
+	float: left;
+}
+
+.screen{
+	width:240px;
+	max-height:240px;
+	margin-top: 20px;
+	float: left;
+}
+
+.screenshot{
+	width:240px;
+	max-height:240px;
+}
+
+.descript{
+	width:850px;
+	padding-left: 24px;
+	float: left;
+}
+
+.link1{
+	color: #ED06FF;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 24px;
+}
+
+.link2{
+	color: #033395;
+	font-weight: bold;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 24px;
+}
